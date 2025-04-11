@@ -2,10 +2,10 @@ import OCR from "./ocr/ocr";
 
 const App = () => {
   return (
-    <main className='min-h-screen container p-10 mx-auto'>
-      <div className='grid gap-3'>
+    <main className='container max-w-screen-md min-h-screen mx-auto px-4 py-8'>
+      <div className=' grid gap-3'>
         <h1 className='font-semibold text-2xl'>Simple OCR Project</h1>
-        <p className='text-lg'>
+        <p>
           This is a simple OCR project using{" "}
           <a
             href='https://github.com/naptha/tesseract.js'

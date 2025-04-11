@@ -31,8 +31,8 @@ const OCR = () => {
     }
   };
   return (
-    <div className='mt-4 grid gap-4'>
-      <div className='flex gap-2'>
+    <div className='mt-4 flex flex-col gap-4'>
+      <div className='flex flex-col sm:flex-row gap-2'>
         <label htmlFor='language'>Choose language</label>
         <select
           id='language'
@@ -47,7 +47,7 @@ const OCR = () => {
           ))}
         </select>
       </div>
-      <div className='flex gap-2'>
+      <div className='flex flex-col sm:flex-row gap-2'>
         <label htmlFor='image'>
           Insert image (.bmp, .jpg, .png, .pbm, .webp)
         </label>
